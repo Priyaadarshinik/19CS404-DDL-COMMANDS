@@ -147,13 +147,8 @@ ADD COLUMN manager_id INTEGER DEFAULT NULL;
 # Question 3: 
  
 Insert all students from Archived_students table into the Student_details table. 
-cid         name        type        notnull     dflt_value  pk 
-----------  ----------  ----------  ----------  ----------  ---------- 
-0           RollNo      INT           0                       1 
-1           Name        VARCHAR(100)  0                       0 
-2           Gender      VARCHAR(10)   0                       0 
-3           Subject     VARCHAR(50)   0                       0 
-4           MARKS       INT           0                       0 
+![image](https://github.com/user-attachments/assets/ed2e63cf-be3c-4b0b-88be-88aea27c64bc)
+
 
 # Answer: 
  
@@ -167,16 +162,13 @@ SELECT RollNo,Name,Gender,Subject,MARKS FROM Archived_students;
 # Question 4: 
  
 Insert the following customers into the Customers table: 
-CustomerID  Name         Address     City        ZipCode ----------  -----------  ----------  ----------  ---------- 
-302         Laura Croft  456 Elm St  Seattle     98101 
-303         Bruce Wayne  789 Oak St  Gotham      10001 
- 
+![image](https://github.com/user-attachments/assets/f4832cd4-b0f3-4179-9316-473bd81dacbc)
+
 # Answer: 
  
 INSERT INTO Customers(CustomerID,Name,Address,City,ZipCode)  
 VALUES (302,'Laura Croft','456 Elm St','Seattle','98101'); 
 INSERT INTO Customers(CustomerID,Name,Address,City,ZipCode)  
-NAME: ANU VARSHINI M B   REG NO: 212223240010
 VALUES (303,'Bruce Wayne','789 Oak St','Gotham','10001'); 
  
 # Output: 
@@ -187,14 +179,8 @@ VALUES (303,'Bruce Wayne','789 Oak St','Gotham','10001');
 Write a SQL query to Add a new column Country as text in the Student_details 
 table. 
 Sample table: Student_details 
- cid              name             type   notnull     dflt_value  pk 
----------------  ---------------  -----  ----------  ----------  ---------- 
-0                RollNo           int    0                       1 
-1                Name             VARCH  1                       0 
-2                Gender           TEXT   1                       0 
-3                Subject          VARCH  0                       0 
-4                MARKS            INT (  0                       0 
- 
+![image](https://github.com/user-attachments/assets/273ebf82-7f40-42cc-b5d1-42bfaaaca5cf)
+
 # Answer: 
  
 ALTER TABLE Student_details ADD COLUMN Country TEXT; 
@@ -266,13 +252,8 @@ Write a SQL Query for inserting the below values as multiple row format in the
 table "Student" Note: In the Student Table attribute year set as default 3 
 Sample Table:" Student" 
  
-RollNo  Name          Gender  Subject  MARKS YEAR
-......  .........     ......  .......  ..... ....
-3       Jeni          Female  English   96    3 
-4       Bob Johnson    Male  History    90    3 
-5       Sharvesh       Male  Botany     97    3 
-6       Mathew         Male  Science    85    3 
-  
+![image](https://github.com/user-attachments/assets/969d58c7-2111-4bc3-8b88-68761c1be659)
+
 # Answer:          
  
 INSERT INTO Student VALUES(3,'Jeni','Female','English',96,3); INSERT INTO 
