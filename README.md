@@ -160,8 +160,8 @@ SELECT RollNo,Name,Gender,Subject,MARKS FROM Archived_students;
 ![image](https://github.com/user-attachments/assets/1f6d742d-401e-4ecd-acaa-20f860128588)
 
 # Question 4: 
- 
 Insert the following customers into the Customers table: 
+
 ![image](https://github.com/user-attachments/assets/f4832cd4-b0f3-4179-9316-473bd81dacbc)
 
 # Answer: 
