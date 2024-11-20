@@ -179,6 +179,7 @@ VALUES (303,'Bruce Wayne','789 Oak St','Gotham','10001');
 Write a SQL query to Add a new column Country as text in the Student_details 
 table. 
 Sample table: Student_details 
+
 ![image](https://github.com/user-attachments/assets/273ebf82-7f40-42cc-b5d1-42bfaaaca5cf)
 
 # Answer: 
